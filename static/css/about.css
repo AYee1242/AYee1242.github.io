@@ -1,0 +1,23 @@
+.parallax-window {
+    min-height: 100vh;
+    background: transparent;
+}
+
+.card {
+    margin: 8rem 8rem;
+    line-height: 1.45;
+    width: 25%;
+    background-color: #F2F3F5;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 900px) {
+    .card {
+        width: 50%;
+        margin: 8rem 4rem;
+
+    }
+}

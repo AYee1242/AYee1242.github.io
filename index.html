@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <!-- Icon -->
+    <link rel="icon" type="image/png" href="../static/images/logo.png"/>
+    <title>Alexander Yee</title>
+</head>
+<body>
+
+    <div class="container d-flex flex-column title pt-4 pb-2">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a class="navbar-brand" href="#"><img class="logo" src="../static/images/logo.png" alt=""></a>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" title="Projects" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Resume">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+        </nav>
+        <!-- Navbar -->
+
+        <!-- Jumbotron -->
+        <div class="p-5 text-center fade-in-text jumbotron">
+            <h1 class="mb-3 fw-bold text-black">Alexander Yee</h1>
+            <h4 class="mb-3 text-dark">Software Engineer</h4>
+        </div>
+    </div>
+
+    <!-- Side Projects -->
+    <div class="container px-4 pb-5">
+        <h4 class="mb-4 text-dark">Recent Projects</h2>
+        <!-- Blog -->
+		<div class="card mb-3 fade">
+            <div class="row g-0">
+                <div class="col-md-6 blog-image project-image text-center p-5">
+                    <img
+                        src="../static/images/article.png"
+                        alt="Trendy Pants and Shoes"
+                        class="img-fluid rounded-start"
+                    />
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3"><strong>Blog</strong></h5>
+                        <p class="card-text">
+                            A web application that allows users to view, bookmark, share, and comment on articles.
+                        </p>
+                        <p class="card-text text-muted text-small">
+                            Built with <strong>Django</strong>, <strong>Bootstrap</strong> and <strong>PostgreSQL</strong>. Deployed using <strong>AWS Elastic Beanstalk</strong> and <strong>EC2</strong>.
+                        </p>
+                    </div>
+                    <div class="card-footer border-0">
+                            <a class="btn btn-dark me-3" href="https://github.com/AYee1242/Blog" target="_blank" role="button"><i class="fab fa-github fa-lg"></i></a>
+                            <a class="btn btn-dark" target="_blank" href="http://djangoblog-env.eba-vjqt2vhc.ca-central-1.elasticbeanstalk.com/" role="button">Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- To-Do List -->
+        <div class="card mb-3 fade">
+            <div class="row g-0">
+                <div class="col-md-6 to-do-image project-image text-center p-5">
+                    <img
+                        src="../static/images/to-do-list.png"
+                        alt="Trendy Pants and Shoes"
+                        class="img-fluid rounded-start"
+                    />
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3"><strong>To-Do List</strong></h5>
+                        <p class="card-text">
+                            A web application that allows users to manage tasks.
+                        </p>
+                        <p class="card-text text-muted text-small">
+                            Built with <strong>Flask</strong>, <strong>Bootstrap</strong> and <strong>PostgreSQL</strong>. Deployed using <strong>Heroku</strong>.
+                        </p>
+                    </div>
+                    <div class="card-footer border-0">
+                        <a class="btn btn-dark me-3" href="https://github.com/AYee1242/To-Do-List" target="_blank" role="button"><i class="fab fa-github fa-lg"></i></a>
+                        <a class="btn btn-dark" target="_blank" href="https://to-do-list-alexander.herokuapp.com/todo" role="button">Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Typing Speed Test -->
+        <div class="card mb-3 fade">
+            <div class="row g-0">
+                <div class="col-md-6 typing-image project-image text-center p-5">
+                    <img
+                        src="../static/images/keyboard.png"
+                        alt="Trendy Pants and Shoes"
+                        class="img-fluid rounded-start"
+                    />
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3"><strong>Typing Speed Test GUI</strong></h5>
+                        <p class="card-text">
+                            A GUI to test your typing speed.
+                        </p>
+                        <p class="card-text text-muted text-small">
+                            Built with <strong>Python Tkinter</strong>. Words generated from <a href="https://random-word-api.herokuapp.com/home"> Random Word API</a>.
+                        </p>
+                    </div>
+                    <div class="card-footer border-0">
+                        <a class="btn btn-dark me-3" href="https://github.com/AYee1242/Type-Speed-Test" target="_blank" role="button"><i class="fab fa-github fa-lg"></i></a>
+                        <a class="btn btn-dark" target="_blank" href="https://youtu.be/1tEKeZaxopw" role="button">Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Spotify -->
+        <div class="card mb-3 fade">
+            <div class="row g-0">
+                <div class="col-md-6 spotify-image project-image text-center p-5">
+                    <img
+                        src="../static/images/spotify.png"
+                        alt="Trendy Pants and Shoes"
+                        class="img-fluid rounded-start"
+                    />
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3"><strong>Spotify Playlist Creator</strong></h5>
+                        <p class="card-text">
+                            Python application that creates a Spotify playlist for Billboard's top 100 songs based on a specified date. 
+                        </p>
+                        <p class="card-text text-muted text-small">
+                            Songs are web scraped from <a href="https://www.billboard.com/">billboard</a> using <strong>Beautiful Soup</strong>. Uses <a href="https://developer.spotify.com/documentation/web-api/">Spotify's API</a> to create the playlist.
+                        </p>
+                    </div>
+                    <div class="card-footer border-0">
+                        <a class="btn btn-dark me-3" href="https://github.com/AYee1242/Spotify-Playlist-Creator" target="_blank" role="button"><i class="fab fa-github fa-lg"></i></a>
+                        <a class="btn btn-dark" target="_blank" href="https://www.youtube.com/watch?v=Xmu1YlmCo8M" role="button">Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tinder -->
+        <div class="card fade">
+            <div class="row g-0">
+                <div class="col-md-6 tinder-image project-image text-center p-5">
+                    <img
+                        src="../static/images/anaconda.png"
+                        alt="Trendy Pants and Shoes"
+                        class="img-fluid rounded-start"
+                    />
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Snake Game</strong></h5>
+                        <p class="card-text">
+                            Python game based on the classic game Snake. 
+                        </p> 
+                        <p class="card-text text-muted text-small">
+                            Built with <strong>Pygame</strong>.
+                        </p>
+                    </div>
+                    <div class="card-footer border-0">
+                        <a class="btn btn-dark me-3" href="https://github.com/AYee1242/Snake" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                        <a class="btn btn-dark" target="_blank" href="https://youtu.be/jsVBHG3uqmk" role="button">Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Side Projects -->
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+        <!-- Contact -->
+        <div id="Contact" class="container py-5">
+            <!-- Mail -->
+            <a class="btn btn-outline-light btn-floating m-1" href="mailto:alexanderyee_300@outlook.com" target="_blank" role="button">
+                <i class="far fa-envelope fa-lg"></i>
+            </a>
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/alexander-yee-2001/" target="_blank" role="button">
+                <i class="fab fa-linkedin-in fa-lg"></i>
+            </a>
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/AYee1242" target="_blank" role="button">
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+        </div>
+        <!-- Contact -->
+        <!-- Copyright -->
+        <div class="text-center text-white p-3 copyright" style="">
+            <p class="m-0">Made by Alexander Yee</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- MDB -->
+    <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="../static/js/index.js"></script>
+
+</body>
+</html>

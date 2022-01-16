@@ -1,0 +1,104 @@
+body {
+    background-color: #f6f3ea;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.logo {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 20%;
+}
+
+.title {
+    min-height: 100vh;
+}
+
+.jumbotron {
+    margin: auto;
+}
+
+
+/* Navbar Section */
+.navbar {
+    box-shadow: none;
+}
+
+
+a {
+    letter-spacing: .1em;
+    transition: text-shadow .3s;
+}
+
+.active,
+a:hover {
+    text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+}
+
+
+.copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.fade-in-text {
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.fade {
+    opacity: 1;
+}

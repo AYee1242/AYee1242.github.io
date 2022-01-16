@@ -1,0 +1,39 @@
+.card {
+    background-color: #F4FAFF;
+}
+
+.text-small {
+    font-size: 80%;
+}
+
+.project-button {
+    text-transform: capitalize;
+}
+
+.project-image {
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.blog-image {
+    background-color: #57c1ff;
+}
+
+.to-do-image {
+    background-color: #FAD02C;
+}
+
+.typing-image {
+    background-color: #D6AD60;
+}
+
+.spotify-image {
+    background-color: #1DB954;
+}
+
+.tinder-image {
+    background-color: #fe3c72;
+}
+
+.text-red {
+    color: #EF3A25;
+}
